@@ -11,12 +11,16 @@ n2 = float(input('Digite o segundo numero: '))
 # Pois só assim analizaremos se ele escreveu o operador, pois sem os ' ' não fica uma string.
 if operador == '*': 
     print('O resultado é: ' , n1*n2)
+    input('Precione qualquer coisa para continuar')
 elif operador == '+':
     print('O resultado é: ' , n1+n2)
+    input('Precione qualquer coisa para continuar')
 elif operador == '/':
     print('O resultado é: ' , n1/n2)
+    input('Precione qualquer coisa para continuar')
 elif operador == '-':
     print('O resultado é: ' , n1-n2)
+    input('Precione qualquer coisa para continuar')
 else:
     print('Operador inválido!')
     
